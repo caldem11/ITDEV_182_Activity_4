@@ -1,7 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import PropTypes from "prop-types";
 import React from "react";
-
 import Avatar from "./Avatar";
 import getAvatarColor from "../utils/getAvatarColor";
 import getInitials from "../utils/getInitials";

@@ -1,7 +1,7 @@
-import { Platform, StyleSheet, View } from "react-native";
-import { Constants } from "expo";
 import React from "react";
-
+import { Platform, StyleSheet, View } from "react-native";
+import Constants from "expo-constants";
+import CardList from "./components/CardList";
 import Feed from "./screens/Feed";
 
 export default class App extends React.Component {
